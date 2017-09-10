@@ -30,13 +30,13 @@ void insert(string word)
 		if(current->child[letter] == NULL)
 			current->child[letter] = new node();
  
-	;
+	
 		current = current->child[letter];		
 	}
 	current->isEnd = true;
 }
  
-bool search(string word)
+/*bool search(string word)
 {
 	node *current = head;
 	for(unsigned int i = 0 ; i < word.length(); ++i)
@@ -47,7 +47,7 @@ bool search(string word)
 		current = current->child[letter];
 	}
 	return current->isEnd;
-}
+}*/
  
  
  
