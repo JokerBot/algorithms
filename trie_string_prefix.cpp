@@ -92,11 +92,12 @@ int n;
   
   for(int i=0;i<n;i++)
   { cin>>x;
-    insert(x);}
+    insert(x);
+  }
     cout<<"enter the common prefix";
     cin>>s;
    refix(s);
-  }
+ 
 
   return 0;
 }
