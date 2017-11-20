@@ -30,7 +30,7 @@ void insert(string word)
 		if(current->child[letter] == NULL)
 			current->child[letter] = new node();
  
-	;
+	
 		current = current->child[letter];		
 	}
 	current->isEnd = true;
@@ -96,7 +96,8 @@ int n;
     cout<<"enter the common prefix";
     cin>>s;
    refix(s);
-   
+  }
 
-  return 0;}
+  return 0;
+}
 
